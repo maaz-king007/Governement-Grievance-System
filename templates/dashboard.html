@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard | AI Grievance System</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-brand">
+    <a href="/" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:0.5rem">
+      <span class="nav-logo">⚖️</span><span>AI Grievance System</span>
+    </a>
+  </div>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/submit">File Complaint</a>
+    <a href="/track">Track Status</a>
+    <a href="/dashboard" class="active">Dashboard</a>
+  </div>
+</nav>
+
+<div class="page-container">
+  <div class="page-header">
+    <h1>📊 Admin Dashboard</h1>
+    <p>Real-time overview of all grievances and AI model performance</p>
+  </div>
+
+  <!-- Model Accuracies -->
+  {% if model_meta.accuracies %}
+  <div class="acc-banner">
+    <div class="acc-title">🤖 Model Accuracies</div>
+    <div class="acc-grid">
+      {% for k,v in model_meta.accuracies.items() %}
+      <div class="acc-item">
+        <div class="acc-label">{{ k | title }}</div>
+        <div class="acc-bar-wrap">
+          <div class="acc-bar" style="width:{{ (v*100)|int }}%"></div>
+        </div>
+        <div class="acc-val">{{ (v*100)|round(1) }}%</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Stats Cards -->
+  <div class="stats-cards">
+    <div class="sc">
+      <div class="sc-icon">📋</div>
+      <div class="sc-num">{{ stats.total }}</div>
+      <div class="sc-label">Total Complaints</div>
+    </div>
+    <div class="sc">
+      <div class="sc-icon">🔴</div>
+      <div class="sc-num">{{ stats.by_urgency.get('high', 0) }}</div>
+      <div class="sc-label">High Urgency</div>
+    </div>
+    <div class="sc">
+      <div class="sc-icon">⏳</div>
+      <div class="sc-num">{{ stats.by_status.get('Open', 0) }}</div>
+      <div class="sc-label">Open</div>
+    </div>
+    <div class="sc">
+      <div class="sc-icon">✅</div>
+      <div class="sc-num">{{ stats.by_status.get('Resolved', 0) }}</div>
+      <div class="sc-label">Resolved</div>
+    </div>
+  </div>
+
+  <!-- Charts -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <h3>Complaints by Department</h3>
+      <div class="bar-chart" id="dept-chart"></div>
+    </div>
+    <div class="chart-card">
+      <h3>Urgency Distribution</h3>
+      <div class="donut-chart" id="urgency-chart"></div>
+    </div>
+    <div class="chart-card">
+      <h3>Sentiment Distribution</h3>
+      <div class="donut-chart" id="sentiment-chart"></div>
+    </div>
+  </div>
+
+  <!-- Grievances Table -->
+  <div class="table-card">
+    <div class="table-header">
+      <h3>📋 All Grievances</h3>
+      <div class="table-filters">
+        <input type="text" id="search-box" placeholder="Search..." class="form-input" oninput="filterTable()">
+        <select id="filter-dept" class="form-input" onchange="filterTable()">
+          <option value="">All Departments</option>
+          {% for dept in stats.by_dept.keys() %}
+          <option>{{ dept }}</option>
+          {% endfor %}
+        </select>
+        <select id="filter-urgency" class="form-input" onchange="filterTable()">
+          <option value="">All Urgencies</option>
+          <option>high</option><option>medium</option><option>low</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data-table" id="grievance-table">
+        <thead>
+          <tr>
+            <th>Ticket ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Urgency</th>
+            <th>Sentiment</th>
+            <th>Status</th>
+            <th>Filed At</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for g in grievances %}
+          <tr data-dept="{{ g.department }}" data-urgency="{{ g.urgency }}" data-text="{{ g.raw_text|lower }}">
+            <td><code>{{ g.ticket_id }}</code></td>
+            <td>{{ g.name }}</td>
+            <td><span class="dept-badge">{{ g.department }}</span></td>
+            <td>
+              <span class="urgency-badge ub-{{ g.urgency }}">
+                {% if g.urgency == 'high' %}🔴{% elif g.urgency == 'medium' %}🟡{% else %}🟢{% endif %}
+                {{ g.urgency | title }}
+              </span>
+            </td>
+            <td>
+              {% if g.sentiment == 'negative' %}😞{% elif g.sentiment == 'positive' %}😊{% else %}😐{% endif %}
+              {{ g.sentiment | title }}
+            </td>
+            <td>
+              <select class="status-select" onchange="updateStatus('{{ g.ticket_id }}', this.value)">
+                <option {% if g.status == 'Open' %}selected{% endif %}>Open</option>
+                <option {% if g.status == 'In Progress' %}selected{% endif %}>In Progress</option>
+                <option {% if g.status == 'Resolved' %}selected{% endif %}>Resolved</option>
+                <option {% if g.status == 'Closed' %}selected{% endif %}>Closed</option>
+              </select>
+            </td>
+            <td><small>{{ g.created_at }}</small></td>
+            <td>
+              <a href="/track?id={{ g.ticket_id }}" class="btn-sm">View</a>
+            </td>
+          </tr>
+          {% else %}
+          <tr><td colspan="8" class="empty-row">No grievances yet. <a href="/submit">File the first one!</a></td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Bar chart ──────────────────────────────────────────────────────────────────
+const deptData = {{ stats.by_dept | tojson }};
+const urgData  = {{ stats.by_urgency | tojson }};
+const sentData = {{ stats.by_sentiment | tojson }};
+
+function renderBarChart(containerId, data) {
+  const container = document.getElementById(containerId);
+  const max = Math.max(...Object.values(data), 1);
+  Object.entries(data).sort((a,b)=>b[1]-a[1]).forEach(([k,v]) => {
+    const row = document.createElement('div');
+    row.className = 'bc-row';
+    row.innerHTML = `
+      <div class="bc-label">${k}</div>
+      <div class="bc-bar-wrap">
+        <div class="bc-bar" style="width:${(v/max*100).toFixed(1)}%"></div>
+        <span class="bc-val">${v}</span>
+      </div>`;
+    container.appendChild(row);
+  });
+}
+
+function renderDonut(containerId, data, colors) {
+  const container = document.getElementById(containerId);
+  const total = Object.values(data).reduce((a,b)=>a+b,0) || 1;
+  const keys = Object.keys(data);
+  let html = '<div class="donut-wrap"><svg viewBox="0 0 100 100" width="120" height="120">';
+  let offset = 0;
+  const defaultColors = ['#ef4444','#f59e0b','#22c55e','#3b82f6','#8b5cf6','#ec4899','#14b8a6'];
+  keys.forEach((k,i) => {
+    const pct = (data[k] / total) * 100;
+    const strokeDash = `${pct} ${100 - pct}`;
+    html += `<circle cx="50" cy="50" r="15.9" fill="transparent" stroke="${defaultColors[i % defaultColors.length]}" stroke-width="10" stroke-dasharray="${strokeDash}" stroke-dashoffset="${-offset}" transform="rotate(-90 50 50)"/>`;
+    offset += pct;
+  });
+  html += '</svg></div><div class="donut-legend">';
+  keys.forEach((k,i) => {
+    html += `<div class="dl-item"><span class="dl-dot" style="background:${defaultColors[i%defaultColors.length]}"></span>${k}: ${data[k]}</div>`;
+  });
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+renderBarChart('dept-chart', deptData);
+renderDonut('urgency-chart', urgData);
+renderDonut('sentiment-chart', sentData);
+
+// ── Filter table ──────────────────────────────────────────────────────────────
+function filterTable() {
+  const search = document.getElementById('search-box').value.toLowerCase();
+  const dept = document.getElementById('filter-dept').value;
+  const urg = document.getElementById('filter-urgency').value;
+  document.querySelectorAll('#grievance-table tbody tr').forEach(row => {
+    const matchSearch = !search || row.dataset.text?.includes(search);
+    const matchDept = !dept || row.dataset.dept === dept;
+    const matchUrg = !urg || row.dataset.urgency === urg;
+    row.style.display = matchSearch && matchDept && matchUrg ? '' : 'none';
+  });
+}
+
+// ── Update status ─────────────────────────────────────────────────────────────
+async function updateStatus(ticketId, status) {
+  await fetch('/api/update_status', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ ticket_id: ticketId, status }),
+  });
+}
+</script>
+
+</body>
+</html>

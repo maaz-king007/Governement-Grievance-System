@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Grievance System | NLP-Powered Complaint Resolution</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-brand">
+    <span class="nav-logo">⚖️</span>
+    <span>AI Grievance System</span>
+  </div>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/submit">File Complaint</a>
+    <a href="/track">Track Status</a>
+    <a href="/dashboard">Dashboard</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">🤖 NLP-Powered</div>
+    <h1>AI-Based Customer Grievance<br>& Response System</h1>
+    <p class="hero-sub">Automated complaint handling with Hindi/Hinglish NLP — instant classification, smart routing, and real-time response generation</p>
+    <div class="hero-actions">
+      <a href="/submit" class="btn btn-primary">📝 File a Complaint</a>
+      <a href="/track" class="btn btn-outline">🔍 Track Complaint</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><span class="hstat-n">7</span><span class="hstat-l">Departments</span></div>
+      <div class="hstat"><span class="hstat-n">3</span><span class="hstat-l">AI Models</span></div>
+      <div class="hstat"><span class="hstat-n">~90%</span><span class="hstat-l">Accuracy</span></div>
+      <div class="hstat"><span class="hstat-n">&lt;1s</span><span class="hstat-l">Response Time</span></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="pipeline-card">
+      <div class="pc-title">🔄 NLP Pipeline</div>
+      <div class="pipeline-steps">
+        <div class="ps">📝 Input Text<br><small>Hindi / Hinglish</small></div>
+        <div class="ps-arrow">→</div>
+        <div class="ps">🔧 Preprocess<br><small>Clean + Normalize</small></div>
+        <div class="ps-arrow">→</div>
+        <div class="ps">📊 TF-IDF<br><small>Feature Extraction</small></div>
+        <div class="ps-arrow">→</div>
+        <div class="ps">🤖 Classify<br><small>3 Models</small></div>
+        <div class="ps-arrow">→</div>
+        <div class="ps">💬 Auto Response<br><small>Generated</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <h2 class="section-title">System Capabilities</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="fc-icon">🏢</div>
+      <h3>Smart Department Routing</h3>
+      <p>Automatically classifies grievances into Banking, Telecom, Electricity, Railways, E-Commerce, Healthcare & Government departments using LinearSVC</p>
+    </div>
+    <div class="feature-card">
+      <div class="fc-icon">💬</div>
+      <h3>Sentiment Analysis</h3>
+      <p>Detects positive, neutral, and negative sentiment in code-mixed Hinglish text using Logistic Regression with TF-IDF features</p>
+    </div>
+    <div class="feature-card">
+      <div class="fc-icon">🚨</div>
+      <h3>Urgency Detection</h3>
+      <p>Hybrid rule-based + ML urgency scoring ensures emergency complaints receive immediate priority escalation</p>
+    </div>
+    <div class="feature-card">
+      <div class="fc-icon">🚫</div>
+      <h3>Hate Speech Detection</h3>
+      <p>Identifies abusive / hateful language in complaints using the Code-Mixed Hateful Hinglish dataset patterns</p>
+    </div>
+    <div class="feature-card">
+      <div class="fc-icon">🗣️</div>
+      <h3>Hinglish NLP</h3>
+      <p>Native support for Roman Hinglish, code-mixed text, and Indic transliteration with custom preprocessing pipeline</p>
+    </div>
+    <div class="feature-card">
+      <div class="fc-icon">⚡</div>
+      <h3>Instant Auto-Response</h3>
+      <p>Context-aware response generation based on department + urgency combination with actionable next steps for users</p>
+    </div>
+  </div>
+</section>
+
+<section class="tech-stack">
+  <h2 class="section-title">Technology Stack</h2>
+  <div class="tech-grid">
+    <div class="tech-item"><span class="ti-icon">🐍</span>Python 3</div>
+    <div class="tech-item"><span class="ti-icon">🧠</span>scikit-learn</div>
+    <div class="tech-item"><span class="ti-icon">📊</span>TF-IDF + N-grams</div>
+    <div class="tech-item"><span class="ti-icon">⚙️</span>LinearSVC</div>
+    <div class="tech-item"><span class="ti-icon">📈</span>Logistic Regression</div>
+    <div class="tech-item"><span class="ti-icon">🌐</span>Flask</div>
+    <div class="tech-item"><span class="ti-icon">💾</span>SQLite</div>
+    <div class="tech-item"><span class="ti-icon">🗣️</span>Hinglish NLP</div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>AI-Based Customer Grievance & Response System | NLP Domain Project</p>
+  <p>Team: Nikhil Kumar (23BAI1264) · Maaz Alam (23BAI1426) · Niharika Ganesh Khopade (23BAI1431)</p>
+</footer>
+
+</body>
+</html>

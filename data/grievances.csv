@@ -1,0 +1,773 @@
+text,department,sentiment,urgency,is_abusive
+"Product damaged mila box kholne par, quality check nahi tha dekhte hain kya hota hai",E-Commerce,neutral,low,0
+Interest rate galat calculate ki gayi meri FD par mujhe jaankari chahiye,Banking,neutral,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha please help karo",Healthcare,neutral,medium,0
+Insurance claim reject ho gaya without valid reason let me know the status,Healthcare,neutral,medium,0
+Station par porter ne bahut zyada charge kiya worst service,Railways,negative,low,0
+Hospital bill mein galat charges add kiye gaye hain unacceptable,Healthcare,negative,low,0
+Reservation coach mein general passengers aa gaye jab possible ho theek kar dena,Railways,neutral,low,0
+Data pack khatam nahi hua tha fir bhi band kar diya dhoka hai ye,Telecom,negative,medium,1
+Reservation coach mein general passengers aa gaye solution chahiye,Railways,neutral,low,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai jaldi se theek karo yaar office mein problem ho rahi hai",Telecom,neutral,medium,0
+Bill online pay kiya par receipt nahi mili abhi tak sab jhooth bolte ho,Electricity,negative,medium,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo jab possible ho theek kar dena",Banking,neutral,low,0
+Seller ne galat description diya product ka confident hoon aap resolve kar lenge,E-Commerce,positive,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne please resolve",Electricity,neutral,low,0
+Station par porter ne bahut zyada charge kiya aasha hai jaldi theek hoga,Railways,positive,low,0
+Scholarship nahi mili jo milni chahiye thi students ko pichle baar bahut achha support mila tha,Government,positive,low,0
+"Medicine out of stock hai, alternative nahi bataya no rush but complaint darz kar raha hoon",Healthcare,neutral,low,0
+"Ward mein cleanliness bahut kharab hai, infection risk unacceptable",Healthcare,negative,low,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai bahut shukriya pehle se help ke liye",Government,positive,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi confident hoon aap resolve kar lenge",Telecom,positive,low,0
+"Khana bahut ganda tha train mein, quality zero hai shame on you",Railways,negative,medium,0
+"Khana bahut ganda tha train mein, quality zero hai dekhte hain kya hota hai",Railways,neutral,medium,0
+"Supply 12 ghante se band hai, koi update nahi de raha jaan ka khatra hai please urgent basis par",Electricity,negative,high,0
+"Supply 12 ghante se band hai, koi update nahi de raha itna bura experience pehle kabhi nahi tha",Electricity,negative,low,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo bilkul galat hai",Banking,negative,medium,0
+"Loan EMI double deduct ho gayi is month, very frustrating bahut shukriya pehle se help ke liye",Banking,positive,low,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai bilkul galat hai",Telecom,negative,medium,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai please resolve",Telecom,neutral,low,0
+Medicines expire ho chuki thi jo di gayi jab possible ho theek kar dena,Healthcare,neutral,low,0
+"Credit card ka bill galat hai, extra charges laga diye unhone critical situation hai please help karo abhi",Banking,negative,high,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya request hai",Electricity,neutral,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha let me know the status",Healthcare,neutral,medium,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai let me know the status",Government,neutral,medium,0
+"Wrong product bheja gaya, size aur color dono galat pichle baar bahut achha support mila tha",E-Commerce,positive,low,0
+5G plan liya par 4G bhi nahi milta area mein pareshaan kar diya,Telecom,negative,low,0
+"Wrong product bheja gaya, size aur color dono galat jaldi se theek karo yaar office mein problem ho rahi hai",E-Commerce,negative,medium,0
+New connection ke liye 3 mahine se wait kar rahe hain team pe bharosa hai,Electricity,positive,low,0
+"Product damaged mila box kholne par, quality check nahi tha ummeed hai theek hoga",E-Commerce,neutral,low,0
+Station par porter ne bahut zyada charge kiya dekhte hain kya hota hai,Railways,neutral,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi fraud system hai ye",Telecom,negative,medium,1
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi update chahiye complaint ka",Telecom,neutral,medium,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai pichle baar bahut achha support mila tha",Telecom,positive,low,0
+Sarkari officer bribe maang raha hai kaam karne ke liye team pe bharosa hai,Government,positive,low,0
+Data pack khatam nahi hua tha fir bhi band kar diya ummeed hai is baar bhi theek kar denge,Telecom,positive,low,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo mujhe jaankari chahiye",Banking,neutral,low,0
+"Meter reading galat hai, humne check kiya pareshaan kar diya",Electricity,negative,low,0
+Platform ticket machine kaam nahi kar rahi ye toh zabardasti hai,Railways,negative,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai emergency hai abhi turant help chahiye",Banking,negative,high,0
+Port request reject kar diya bina koi reason bataye solution chahiye,Telecom,neutral,low,0
+"Loan EMI double deduct ho gayi is month, very frustrating complaint darz kar raha hoon",Banking,neutral,medium,0
+"Product quality bahut kharab hai, waste of money very disappointed",E-Commerce,negative,medium,0
+"SMS nahi aa raha important messages, very problematic aasha hai jaldi theek hoga",Telecom,positive,low,0
+Order cancel kar diya aapne meri permission bina confident hoon aap resolve kar lenge,E-Commerce,positive,low,0
+"Supply 12 ghante se band hai, koi update nahi de raha confident hoon aap resolve kar lenge",Electricity,positive,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha inform kar dena jab theek ho",Healthcare,neutral,medium,0
+"Fake product mila, original nahi tha bilkul bahut shukriya pehle se help ke liye",E-Commerce,positive,low,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha solution chahiye",Railways,neutral,medium,0
+"Fake product mila, original nahi tha bilkul koi bata sakta hai kya",E-Commerce,neutral,medium,0
+Interest rate galat calculate ki gayi meri FD par bijli 12 ghante se gai hai emergency hai,Banking,negative,high,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai ummeed hai theek hoga",Banking,neutral,low,0
+Hospital bill mein galat charges add kiye gaye hain cheat kar rahe ho khullam khulla,Healthcare,negative,medium,1
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon bahut nirasha hui",Telecom,negative,low,0
+"Product damaged mila box kholne par, quality check nahi tha itna bura experience pehle kabhi nahi tha",E-Commerce,negative,medium,0
+Sarkari officer bribe maang raha hai kaam karne ke liye ye toh zabardasti hai,Government,negative,medium,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi confident hoon aap resolve kar lenge",Banking,positive,low,0
+Sarkari officer bribe maang raha hai kaam karne ke liye inform kar dena jab theek ho,Government,neutral,low,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon please help karo",Telecom,neutral,medium,0
+Caste certificate reject ho gaya without reason aap log bahut helpful hote hain usually,Government,positive,low,0
+Port request reject kar diya bina koi reason bataye bahut shukriya pehle se help ke liye,Telecom,positive,low,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti pichle baar bahut achha support mila tha",Railways,positive,low,0
+New connection ke liye 3 mahine se wait kar rahe hain bohot pareshaan hoon is issue se please help,Electricity,neutral,medium,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai itna bura experience pehle kabhi nahi tha",Telecom,negative,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya critical situation hai please help karo abhi",Telecom,negative,high,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai please resolve",Telecom,neutral,low,0
+Mera savings account freeze kar diya without any notice inform kar dena jab theek ho,Banking,neutral,low,0
+Insurance claim reject ho gaya without valid reason shame on you,Healthcare,negative,low,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai ummeed hai is baar bhi theek kar denge",Railways,positive,low,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya aasha hai jaldi theek hoga",Telecom,positive,low,0
+Caste certificate reject ho gaya without reason request hai,Government,neutral,low,0
+"Wrong product bheja gaya, size aur color dono galat request hai",E-Commerce,neutral,medium,0
+New connection ke liye 3 mahine se wait kar rahe hain ambulance late aayi aur patient critical tha,Electricity,negative,high,0
+"Train 5 ghante late hai, koi announcement nahi ki pichle baar bahut achha support mila tha",Railways,positive,low,0
+Interest rate galat calculate ki gayi meri FD par no rush but complaint darz kar raha hoon,Banking,neutral,low,0
+"SMS nahi aa raha important messages, very problematic please resolve",Telecom,neutral,medium,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar bewakoof log,Banking,negative,medium,1
+"Network nahi aa raha ghar pe, signal bilkul zero hai jaan ka khatra hai please urgent basis par",Telecom,negative,high,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein bahut gussa aa raha hai",Banking,negative,low,0
+5G plan liya par 4G bhi nahi milta area mein mujhe jaankari chahiye,Telecom,neutral,low,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya inform kar dena jab theek ho",Telecom,neutral,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne pareshaan kar diya",Electricity,negative,medium,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai sab jhooth bolte ho",Telecom,negative,medium,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo solution chahiye",Banking,neutral,low,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai aap log bahut helpful hote hain usually",Telecom,positive,low,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye pichle baar bahut achha support mila tha",Electricity,positive,low,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai aap log bahut helpful hote hain usually",Telecom,positive,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya itna bura experience pehle kabhi nahi tha",Banking,negative,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar confident hoon aap resolve kar lenge,Banking,positive,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya solution chahiye",Banking,neutral,low,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha ambulance late aayi aur patient critical tha",Healthcare,negative,high,0
+"Power cut ho rahi hai roz roz, kab theek hoga mujhe jaankari chahiye",Electricity,neutral,medium,0
+"Wrong product bheja gaya, size aur color dono galat please resolve",E-Commerce,neutral,low,0
+Discount nahi mila jo website par show ho raha tha let me know the status,E-Commerce,neutral,medium,0
+Caste certificate reject ho gaya without reason koi bata sakta hai kya,Government,neutral,medium,0
+New connection ke liye 3 mahine se wait kar rahe hain bahut bura laga,Electricity,negative,low,0
+Order deliver nahi hua par delivered show ho raha hai app mein bahut bura laga,E-Commerce,negative,medium,0
+"Train 5 ghante late hai, koi announcement nahi ki kab theek hoga",Railways,negative,low,0
+"Product quality bahut kharab hai, waste of money ummeed hai is baar bhi theek kar denge",E-Commerce,positive,low,0
+"Credit card ka bill galat hai, extra charges laga diye unhone dekhte hain kya hota hai",Banking,neutral,low,0
+"Delivery boy ne rude behave kiya, acceptable nahi ummeed hai is baar bhi theek kar denge",E-Commerce,positive,low,0
+"Lab report galat aayi, second test mein alag results solution chahiye",Healthcare,neutral,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein bohot pareshaan hoon is issue se please help,E-Commerce,negative,medium,0
+Insurance claim reject ho gaya without valid reason team pe bharosa hai,Healthcare,positive,low,0
+"Loan EMI double deduct ho gayi is month, very frustrating ek baar bhi sahi se nahi kiya",Banking,negative,low,0
+Mera savings account freeze kar diya without any notice sab jhooth bolte ho,Banking,negative,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya bahut shukriya pehle se help ke liye,Electricity,positive,low,0
+OTP nahi aa raha important verification ke liye very disappointed,Telecom,negative,low,0
+PAN card address update nahi ho rahi online mujhe jaankari chahiye,Government,neutral,low,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai koi bata sakta hai kya",Railways,neutral,low,0
+"COD order mein bhi advance payment maang rahe ho, why ek baar bhi sahi se nahi kiya",E-Commerce,negative,medium,0
+Return request reject ho gaya bina reason ke dekhte hain kya hota hai,E-Commerce,neutral,low,0
+"Train 5 ghante late hai, koi announcement nahi ki let me know the status",Railways,neutral,medium,0
+"Wrong product bheja gaya, size aur color dono galat important kaam ruk gaya is wajah se please",E-Commerce,neutral,medium,0
+New connection ke liye 3 mahine se wait kar rahe hain very disappointed,Electricity,negative,low,0
+Seller ne galat description diya product ka please help karo,E-Commerce,neutral,low,0
+Data pack khatam nahi hua tha fir bhi band kar diya no rush but complaint darz kar raha hoon,Telecom,neutral,low,0
+"SMS nahi aa raha important messages, very problematic disgusting",Telecom,negative,medium,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti jaldi se theek karo yaar office mein problem ho rahi hai",Railways,negative,medium,0
+"Power cut ho rahi hai roz roz, kab theek hoga pareshaan kar diya",Electricity,negative,medium,0
+"Power cut ho rahi hai roz roz, kab theek hoga jab possible ho theek kar dena",Electricity,neutral,medium,0
+Property registration mein delays ho rahi hain barbaad kar diya,Government,negative,medium,1
+"Ward mein cleanliness bahut kharab hai, infection risk pichle baar bahut achha support mila tha",Healthcare,positive,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai update chahiye complaint ka",Banking,neutral,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya ummeed hai is baar bhi theek kar denge,Electricity,positive,low,0
+"Product quality bahut kharab hai, waste of money jaan ka khatra hai please urgent basis par",E-Commerce,negative,high,0
+"Ambulance bahut late aayi emergency mein, dangerous tha ek baar bhi sahi se nahi kiya",Healthcare,negative,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya jab possible ho theek kar dena",Banking,neutral,low,0
+"Product quality bahut kharab hai, waste of money unacceptable",E-Commerce,negative,medium,0
+OTP nahi aa raha important verification ke liye ummeed hai is baar bhi theek kar denge,Telecom,positive,low,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye ek baar bhi sahi se nahi kiya",Electricity,negative,low,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai update chahiye complaint ka",Government,neutral,medium,0
+Passport application status update nahi ho raha weeks se aap log bahut helpful hote hain usually,Government,positive,low,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon let me know the status,Government,neutral,low,0
+"Product quality bahut kharab hai, waste of money bewakoof log",E-Commerce,negative,medium,1
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye aasha hai jaldi theek hoga",Railways,positive,low,0
+Property registration mein delays ho rahi hain inform kar dena jab theek ho,Government,neutral,low,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya complaint darz kar raha hoon",Electricity,neutral,medium,0
+"Lab report galat aayi, second test mein alag results kaafi din se yeh problem chal rahi hai",Healthcare,negative,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya dhoka hai ye",Telecom,negative,medium,1
+"Credit card ka bill galat hai, extra charges laga diye unhone itna bura experience pehle kabhi nahi tha",Banking,negative,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein bilkul galat hai,E-Commerce,negative,medium,0
+Roaming charges bahut zyada laga diye trip mein bahut shukriya pehle se help ke liye,Telecom,positive,low,0
+OTP nahi aa raha important verification ke liye solution chahiye,Telecom,neutral,medium,0
+Online appointment system kaam nahi kar raha ummeed hai is baar bhi theek kar denge,Healthcare,positive,low,0
+Bill online pay kiya par receipt nahi mili abhi tak ek baar bhi sahi se nahi kiya,Electricity,negative,low,0
+Station par porter ne bahut zyada charge kiya critical situation hai please help karo abhi,Railways,negative,high,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai bijli 12 ghante se gai hai emergency hai",Railways,negative,high,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha pichle baar bahut achha support mila tha",Railways,positive,low,0
+Ticket confirm nahi hua par paise kat gaye account se team pe bharosa hai,Railways,positive,low,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai update chahiye complaint ka",Railways,neutral,low,0
+Bill online pay kiya par receipt nahi mili abhi tak team pe bharosa hai,Electricity,positive,low,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti unacceptable",Railways,negative,medium,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha sab jhooth bolte ho",Railways,negative,low,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein kab theek hoga",Banking,negative,medium,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi worst service",Banking,negative,medium,0
+"Meter reading galat hai, humne check kiya bahut gussa aa raha hai",Electricity,negative,medium,0
+"Supply 12 ghante se band hai, koi update nahi de raha let me know the status",Electricity,neutral,medium,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai bimar bachha hai ghar mein urgent help",Government,negative,high,0
+Data pack khatam nahi hua tha fir bhi band kar diya kab theek hoga,Telecom,negative,low,0
+"Credit card ka bill galat hai, extra charges laga diye unhone disgusting",Banking,negative,low,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha complaint darz kar raha hoon",Healthcare,neutral,medium,0
+"Delivery boy ne rude behave kiya, acceptable nahi shame on you",E-Commerce,negative,low,0
+"Ward mein cleanliness bahut kharab hai, infection risk bilkul galat hai",Healthcare,negative,low,0
+PAN card address update nahi ho rahi online bahut gussa aa raha hai,Government,negative,low,0
+Interest rate galat calculate ki gayi meri FD par ambulance late aayi aur patient critical tha,Banking,negative,high,0
+Insurance claim reject ho gaya without valid reason jab possible ho theek kar dena,Healthcare,neutral,medium,0
+Voltage fluctuation se ghar ka saman kharab ho gaya jaldi se theek karo yaar office mein problem ho rahi hai,Electricity,neutral,medium,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai kab theek hoga",Government,negative,low,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha unacceptable",Railways,negative,low,0
+Caste certificate reject ho gaya without reason bahut nirasha hui,Government,negative,medium,0
+"Refund pending hai 15 din se, paisa wapas karo sab jhooth bolte ho",E-Commerce,negative,low,0
+PAN card address update nahi ho rahi online jaan ka khatra hai please urgent basis par,Government,negative,high,0
+Data pack khatam nahi hua tha fir bhi band kar diya dekhte hain kya hota hai,Telecom,neutral,low,0
+"Medicine out of stock hai, alternative nahi bataya ummeed hai theek hoga",Healthcare,neutral,low,0
+"Medicine out of stock hai, alternative nahi bataya bahut bura laga",Healthcare,negative,low,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya aasha hai jaldi theek hoga",Electricity,positive,low,0
+"Supply 12 ghante se band hai, koi update nahi de raha solution chahiye",Electricity,neutral,medium,0
+Ticket confirm nahi hua par paise kat gaye account se sab jhooth bolte ho,Railways,negative,low,0
+New connection ke liye 3 mahine se wait kar rahe hain pichle baar bahut achha support mila tha,Electricity,positive,low,0
+Doctor ne appointment cancel kar diya last minute par complaint darz kar raha hoon,Healthcare,neutral,medium,0
+"Wrong product bheja gaya, size aur color dono galat aap log bahut helpful hote hain usually",E-Commerce,positive,low,0
+Roaming charges bahut zyada laga diye trip mein solution chahiye,Telecom,neutral,medium,0
+5G plan liya par 4G bhi nahi milta area mein bahut shukriya pehle se help ke liye,Telecom,positive,low,0
+Return request reject ho gaya bina reason ke ummeed hai is baar bhi theek kar denge,E-Commerce,positive,low,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti update chahiye complaint ka",Railways,neutral,low,0
+Return request reject ho gaya bina reason ke ummeed hai theek hoga,E-Commerce,neutral,low,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon aap log bahut helpful hote hain usually",Telecom,positive,low,0
+"Medicine out of stock hai, alternative nahi bataya pareshaan kar diya",Healthcare,negative,medium,0
+"Delivery boy ne rude behave kiya, acceptable nahi confident hoon aap resolve kar lenge",E-Commerce,positive,low,0
+"Delivery boy ne rude behave kiya, acceptable nahi worst service",E-Commerce,negative,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein fraud system hai ye,E-Commerce,negative,medium,1
+Ticket confirm nahi hua par paise kat gaye account se complaint darz kar raha hoon,Railways,neutral,low,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya ek baar bhi sahi se nahi kiya",Electricity,negative,low,0
+Medicines expire ho chuki thi jo di gayi pareshaan kar diya,Healthcare,negative,medium,0
+Seller ne galat description diya product ka kab theek hoga,E-Commerce,negative,low,0
+"Lab report galat aayi, second test mein alag results unacceptable",Healthcare,negative,low,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi inform kar dena jab theek ho",Banking,neutral,medium,0
+"Medicine out of stock hai, alternative nahi bataya jab possible ho theek kar dena",Healthcare,neutral,low,0
+Platform ticket machine kaam nahi kar rahi itna bura experience pehle kabhi nahi tha,Railways,negative,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha worst service",Healthcare,negative,medium,0
+OTP nahi aa raha important verification ke liye pareshaan kar diya,Telecom,negative,low,0
+RTI application ka jawab nahi mila 30 din mein slowly but theek kar dena please,Government,neutral,low,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha bahut nirasha hui",Healthcare,negative,low,0
+Caste certificate reject ho gaya without reason bewakoof log,Government,negative,medium,1
+Platform ticket machine kaam nahi kar rahi bahut serious matter hai ye turant resolve karo,Railways,negative,high,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne bahut serious matter hai ye turant resolve karo",Electricity,negative,high,0
+Seller ne galat description diya product ka har din aata hoon office mein issue hai,E-Commerce,neutral,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya sab jhooth bolte ho",Telecom,negative,medium,0
+"Medicine out of stock hai, alternative nahi bataya itna bura experience pehle kabhi nahi tha",Healthcare,negative,medium,0
+Caste certificate reject ho gaya without reason no rush but complaint darz kar raha hoon,Government,neutral,low,0
+Reservation coach mein general passengers aa gaye kaafi din se yeh problem chal rahi hai,Railways,neutral,medium,0
+"Loan EMI double deduct ho gayi is month, very frustrating important kaam ruk gaya is wajah se please",Banking,negative,medium,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai ullu banate ho customers ko",Railways,negative,medium,1
+"Khana bahut ganda tha train mein, quality zero hai aap log bahut helpful hote hain usually",Railways,positive,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya jaldi se theek karo yaar office mein problem ho rahi hai",Banking,negative,medium,0
+Interest rate galat calculate ki gayi meri FD par bilkul galat hai,Banking,negative,medium,0
+OTP nahi aa raha important verification ke liye itna bura experience pehle kabhi nahi tha,Telecom,negative,medium,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai bahut shukriya pehle se help ke liye",Government,positive,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya bahut nirasha hui,Electricity,negative,low,0
+"Product damaged mila box kholne par, quality check nahi tha mujhe jaankari chahiye",E-Commerce,neutral,medium,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon mujhe jaankari chahiye",Telecom,neutral,low,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon emergency hai abhi turant help chahiye",Telecom,negative,high,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar koi bata sakta hai kya,Banking,neutral,low,0
+Smart meter galat reading de raha hai inform kar dena jab theek ho,Electricity,neutral,medium,0
+Medicines expire ho chuki thi jo di gayi please resolve,Healthcare,neutral,medium,0
+Mera savings account freeze kar diya without any notice barbaad kar diya,Banking,negative,medium,1
+"Supply 12 ghante se band hai, koi update nahi de raha shame on you",Electricity,negative,medium,0
+"Fake product mila, original nahi tha bilkul complaint darz kar raha hoon",E-Commerce,neutral,medium,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon bahut gussa aa raha hai",Telecom,negative,low,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti dekhte hain kya hota hai",Railways,neutral,medium,0
+Smart meter galat reading de raha hai confident hoon aap resolve kar lenge,Electricity,positive,low,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein ummeed hai is baar bhi theek kar denge",Banking,positive,low,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye let me know the status",Railways,neutral,low,0
+RTI application ka jawab nahi mila 30 din mein mujhe jaankari chahiye,Government,neutral,medium,0
+OTP nahi aa raha important verification ke liye jab possible ho theek kar dena,Telecom,neutral,low,0
+Scholarship nahi mili jo milni chahiye thi students ko koi urgent nahi hai but issue hai please dekh lena,Government,neutral,low,0
+Smart meter galat reading de raha hai pichle baar bahut achha support mila tha,Electricity,positive,low,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai bilkul galat hai",Government,negative,medium,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi slowly but theek kar dena please",Telecom,neutral,low,0
+Medicines expire ho chuki thi jo di gayi har din aata hoon office mein issue hai,Healthcare,neutral,medium,0
+Property registration mein delays ho rahi hain itna bura experience pehle kabhi nahi tha,Government,negative,low,0
+Hospital bill mein galat charges add kiye gaye hain let me know the status,Healthcare,neutral,low,0
+"Power cut ho rahi hai roz roz, kab theek hoga aasha hai jaldi theek hoga",Electricity,positive,low,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye ummeed hai is baar bhi theek kar denge",Railways,positive,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar update chahiye complaint ka,Banking,neutral,medium,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai emergency hai abhi turant help chahiye",Government,negative,high,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi request hai",Telecom,neutral,low,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi sab jhooth bolte ho",Banking,negative,medium,0
+Hospital bill mein galat charges add kiye gaye hain jaan ka khatra hai please urgent basis par,Healthcare,negative,high,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti ummeed hai theek hoga",Railways,neutral,medium,0
+Order cancel kar diya aapne meri permission bina bahut serious matter hai ye turant resolve karo,E-Commerce,negative,high,0
+Passport application status update nahi ho raha weeks se very disappointed,Government,negative,medium,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya update chahiye complaint ka",Electricity,neutral,medium,0
+Port request reject kar diya bina koi reason bataye agar possible ho to theek kar dena,Telecom,neutral,low,0
+Mera savings account freeze kar diya without any notice aap log bahut helpful hote hain usually,Banking,positive,low,0
+"Delivery boy ne rude behave kiya, acceptable nahi update chahiye complaint ka",E-Commerce,neutral,medium,0
+"Product quality bahut kharab hai, waste of money jab possible ho theek kar dena",E-Commerce,neutral,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya request hai,Electricity,neutral,medium,0
+PAN card address update nahi ho rahi online ummeed hai theek hoga,Government,neutral,low,0
+"Wrong product bheja gaya, size aur color dono galat bilkul galat hai",E-Commerce,negative,low,0
+Doctor ne appointment cancel kar diya last minute par bohot pareshaan hoon is issue se please help,Healthcare,negative,medium,0
+Reservation coach mein general passengers aa gaye aap log bahut helpful hote hain usually,Railways,positive,low,0
+Order cancel kar diya aapne meri permission bina solution chahiye,E-Commerce,neutral,medium,0
+Order cancel kar diya aapne meri permission bina critical situation hai please help karo abhi,E-Commerce,negative,high,0
+Roaming charges bahut zyada laga diye trip mein itna bura experience pehle kabhi nahi tha,Telecom,negative,low,0
+"Supply 12 ghante se band hai, koi update nahi de raha update chahiye complaint ka",Electricity,neutral,low,0
+"Wrong product bheja gaya, size aur color dono galat cheat kar rahe ho khullam khulla",E-Commerce,negative,medium,1
+New connection ke liye 3 mahine se wait kar rahe hain slowly but theek kar dena please,Electricity,neutral,low,0
+"Delivery boy ne rude behave kiya, acceptable nahi barbaad kar diya",E-Commerce,negative,medium,1
+Platform ticket machine kaam nahi kar rahi bahut gussa aa raha hai,Railways,negative,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne bijli 12 ghante se gai hai emergency hai",Electricity,negative,high,0
+5G plan liya par 4G bhi nahi milta area mein solution chahiye,Telecom,neutral,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar worst service,Banking,negative,medium,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai aasha hai jaldi theek hoga",Railways,positive,low,0
+Discount nahi mila jo website par show ho raha tha ambulance late aayi aur patient critical tha,E-Commerce,negative,high,0
+Medicines expire ho chuki thi jo di gayi bijli 12 ghante se gai hai emergency hai,Healthcare,negative,high,0
+Property registration mein delays ho rahi hain confident hoon aap resolve kar lenge,Government,positive,low,0
+"Credit card ka bill galat hai, extra charges laga diye unhone ye toh zabardasti hai",Banking,negative,medium,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon complaint darz kar raha hoon,Government,neutral,low,0
+Discount nahi mila jo website par show ho raha tha bahut shukriya pehle se help ke liye,E-Commerce,positive,low,0
+Order cancel kar diya aapne meri permission bina bakwaas company hai,E-Commerce,negative,medium,1
+Caste certificate reject ho gaya without reason 2-3 din mein resolve karo please,Government,neutral,medium,0
+Port request reject kar diya bina koi reason bataye ek baar bhi sahi se nahi kiya,Telecom,negative,medium,0
+"Refund pending hai 15 din se, paisa wapas karo aasha hai jaldi theek hoga",E-Commerce,positive,low,0
+Roaming charges bahut zyada laga diye trip mein shame on you,Telecom,negative,medium,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo ye toh zabardasti hai",Banking,negative,low,0
+Port request reject kar diya bina koi reason bataye confident hoon aap resolve kar lenge,Telecom,positive,low,0
+"Product quality bahut kharab hai, waste of money agar possible ho to theek kar dena",E-Commerce,neutral,low,0
+Insurance claim reject ho gaya without valid reason bilkul galat hai,Healthcare,negative,medium,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai request hai",Telecom,neutral,low,0
+Property registration mein delays ho rahi hain disgusting,Government,negative,low,0
+"Meter reading galat hai, humne check kiya bahut shukriya pehle se help ke liye",Electricity,positive,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar bahut bura laga,Banking,negative,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne ek baar bhi sahi se nahi kiya",Electricity,negative,low,0
+"Power cut ho rahi hai roz roz, kab theek hoga aap log bahut helpful hote hain usually",Electricity,positive,low,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye chor hain sab",Electricity,negative,medium,1
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya aasha hai jaldi theek hoga",Banking,positive,low,0
+Port request reject kar diya bina koi reason bataye har din aata hoon office mein issue hai,Telecom,neutral,medium,0
+"Khana bahut ganda tha train mein, quality zero hai chor hain sab",Railways,negative,medium,1
+Station par porter ne bahut zyada charge kiya please resolve,Railways,neutral,medium,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi aasha hai jaldi theek hoga",Banking,positive,low,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein solution chahiye",Banking,neutral,low,0
+Sarkari officer bribe maang raha hai kaam karne ke liye itna bura experience pehle kabhi nahi tha,Government,negative,medium,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye request hai",Railways,neutral,medium,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi bilkul galat hai",Telecom,negative,medium,0
+"Ward mein cleanliness bahut kharab hai, infection risk confident hoon aap resolve kar lenge",Healthcare,positive,low,0
+Order deliver nahi hua par delivered show ho raha hai app mein sab jhooth bolte ho,E-Commerce,negative,medium,0
+RTI application ka jawab nahi mila 30 din mein solution chahiye,Government,neutral,low,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye request hai",Electricity,neutral,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne aap log bahut helpful hote hain usually",Electricity,positive,low,0
+"Wrong product bheja gaya, size aur color dono galat bahut gussa aa raha hai",E-Commerce,negative,medium,0
+RTI application ka jawab nahi mila 30 din mein ummeed hai is baar bhi theek kar denge,Government,positive,low,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya let me know the status",Telecom,neutral,medium,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha unacceptable",Healthcare,negative,medium,0
+Order cancel kar diya aapne meri permission bina bahut gussa aa raha hai,E-Commerce,negative,medium,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo bahut bura laga",Banking,negative,medium,0
+Online appointment system kaam nahi kar raha request hai,Healthcare,neutral,low,0
+Station par porter ne bahut zyada charge kiya bahut shukriya pehle se help ke liye,Railways,positive,low,0
+Station par porter ne bahut zyada charge kiya unacceptable,Railways,negative,medium,0
+Passport application status update nahi ho raha weeks se bahut nirasha hui,Government,negative,low,0
+"Refund pending hai 15 din se, paisa wapas karo no rush but complaint darz kar raha hoon",E-Commerce,neutral,low,0
+Property registration mein delays ho rahi hain please help karo,Government,neutral,low,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha inform kar dena jab theek ho",Railways,neutral,low,0
+"Khana bahut ganda tha train mein, quality zero hai inform kar dena jab theek ho",Railways,neutral,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se ullu banate ho customers ko,Banking,negative,medium,1
+"Fake product mila, original nahi tha bilkul ummeed hai is baar bhi theek kar denge",E-Commerce,positive,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha itna bura experience pehle kabhi nahi tha",Healthcare,negative,medium,0
+Medicines expire ho chuki thi jo di gayi accident ho gaya hospital se baat karo,Healthcare,negative,high,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon bahut bura laga",Telecom,negative,medium,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar ummeed hai is baar bhi theek kar denge,Banking,positive,low,0
+"Mobile banking app crash ho rahi hai baar baar, useless app jab time mile tab resolve kar dena",Banking,neutral,low,0
+"Train 5 ghante late hai, koi announcement nahi ki disgusting",Railways,negative,medium,0
+"Fake product mila, original nahi tha bilkul kaafi din se yeh problem chal rahi hai",E-Commerce,neutral,medium,0
+"Fake product mila, original nahi tha bilkul unacceptable",E-Commerce,negative,low,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai bahut bura laga",Telecom,negative,medium,0
+"SMS nahi aa raha important messages, very problematic mujhe jaankari chahiye",Telecom,neutral,medium,0
+"Product quality bahut kharab hai, waste of money update chahiye complaint ka",E-Commerce,neutral,low,0
+"Product damaged mila box kholne par, quality check nahi tha jab time mile tab resolve kar dena",E-Commerce,neutral,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya bahut gussa aa raha hai",Banking,negative,medium,0
+Port request reject kar diya bina koi reason bataye shame on you,Telecom,negative,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar please resolve,Banking,neutral,medium,0
+Outgoing calls band kar di bina kisi warning ke team pe bharosa hai,Telecom,positive,low,0
+Return request reject ho gaya bina reason ke bahut shukriya pehle se help ke liye,E-Commerce,positive,low,0
+Online appointment system kaam nahi kar raha fraud system hai ye,Healthcare,negative,medium,1
+Online appointment system kaam nahi kar raha itna bura experience pehle kabhi nahi tha,Healthcare,negative,low,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon bahut serious matter hai ye turant resolve karo",Telecom,negative,high,0
+Seller ne galat description diya product ka ek baar bhi sahi se nahi kiya,E-Commerce,negative,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein koi urgent nahi hai but issue hai please dekh lena,E-Commerce,neutral,low,0
+5G plan liya par 4G bhi nahi milta area mein 2-3 din mein resolve karo please,Telecom,negative,medium,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai let me know the status",Telecom,neutral,low,0
+"Khana bahut ganda tha train mein, quality zero hai confident hoon aap resolve kar lenge",Railways,positive,low,0
+"COD order mein bhi advance payment maang rahe ho, why pichle baar bahut achha support mila tha",E-Commerce,positive,low,0
+Platform ticket machine kaam nahi kar rahi aasha hai jaldi theek hoga,Railways,positive,low,0
+"COD order mein bhi advance payment maang rahe ho, why bahut nirasha hui",E-Commerce,negative,medium,0
+"Meter reading galat hai, humne check kiya ullu banate ho customers ko",Electricity,negative,medium,1
+Property registration mein delays ho rahi hain jab possible ho theek kar dena,Government,neutral,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya pareshaan kar diya,Electricity,negative,medium,0
+"Product quality bahut kharab hai, waste of money 2-3 din mein resolve karo please",E-Commerce,neutral,medium,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya bahut shukriya pehle se help ke liye",Electricity,positive,low,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye bimar bachha hai ghar mein urgent help",Electricity,negative,high,0
+"Delivery boy ne rude behave kiya, acceptable nahi bahut nirasha hui",E-Commerce,negative,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya unacceptable",Telecom,negative,medium,0
+"Khana bahut ganda tha train mein, quality zero hai accident ho gaya hospital se baat karo",Railways,negative,high,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye complaint darz kar raha hoon",Electricity,neutral,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se bahut serious matter hai ye turant resolve karo,Banking,negative,high,0
+"Mobile banking app crash ho rahi hai baar baar, useless app pichle baar bahut achha support mila tha",Banking,positive,low,0
+Port request reject kar diya bina koi reason bataye unacceptable,Telecom,negative,medium,0
+New connection ke liye 3 mahine se wait kar rahe hain inform kar dena jab theek ho,Electricity,neutral,medium,0
+"Meter reading galat hai, humne check kiya shame on you",Electricity,negative,medium,0
+"SMS nahi aa raha important messages, very problematic ummeed hai is baar bhi theek kar denge",Telecom,positive,low,0
+Discount nahi mila jo website par show ho raha tha bahut nirasha hui,E-Commerce,negative,low,0
+OTP nahi aa raha important verification ke liye koi urgent nahi hai but issue hai please dekh lena,Telecom,neutral,low,0
+Online appointment system kaam nahi kar raha bahut nirasha hui,Healthcare,negative,low,0
+Bill online pay kiya par receipt nahi mili abhi tak jab possible ho theek kar dena,Electricity,neutral,low,0
+Medicines expire ho chuki thi jo di gayi koi bata sakta hai kya,Healthcare,neutral,medium,0
+"SMS nahi aa raha important messages, very problematic shame on you",Telecom,negative,low,0
+Interest rate galat calculate ki gayi meri FD par pichle baar bahut achha support mila tha,Banking,positive,low,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya shame on you",Electricity,negative,medium,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti jab time mile tab resolve kar dena",Railways,neutral,low,0
+"Ward mein cleanliness bahut kharab hai, infection risk emergency hai abhi turant help chahiye",Healthcare,negative,high,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon please help karo,Government,neutral,low,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai ye toh zabardasti hai",Telecom,negative,medium,0
+RTI application ka jawab nahi mila 30 din mein aap log bahut helpful hote hain usually,Government,positive,low,0
+Scholarship nahi mili jo milni chahiye thi students ko shame on you,Government,negative,low,0
+Passport application status update nahi ho raha weeks se important kaam ruk gaya is wajah se please,Government,negative,medium,0
+PAN card address update nahi ho rahi online team pe bharosa hai,Government,positive,low,0
+Discount nahi mila jo website par show ho raha tha solution chahiye,E-Commerce,neutral,medium,0
+OTP nahi aa raha important verification ke liye accident ho gaya hospital se baat karo,Telecom,negative,high,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai worst service",Telecom,negative,medium,0
+"Khana bahut ganda tha train mein, quality zero hai itna bura experience pehle kabhi nahi tha",Railways,negative,medium,0
+"Train 5 ghante late hai, koi announcement nahi ki complaint darz kar raha hoon",Railways,neutral,low,0
+Discount nahi mila jo website par show ho raha tha request hai,E-Commerce,neutral,low,0
+OTP nahi aa raha important verification ke liye bahut shukriya pehle se help ke liye,Telecom,positive,low,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi please resolve",Banking,neutral,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi ambulance late aayi aur patient critical tha",Telecom,negative,high,0
+"Khana bahut ganda tha train mein, quality zero hai unacceptable",Railways,negative,medium,0
+Mera savings account freeze kar diya without any notice disgusting,Banking,negative,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha koi urgent nahi hai but issue hai please dekh lena",Healthcare,neutral,low,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai bijli 12 ghante se gai hai emergency hai",Government,negative,high,0
+Ticket confirm nahi hua par paise kat gaye account se dekhte hain kya hota hai,Railways,neutral,medium,0
+Scholarship nahi mili jo milni chahiye thi students ko update chahiye complaint ka,Government,neutral,low,0
+Insurance claim reject ho gaya without valid reason bimar bachha hai ghar mein urgent help,Healthcare,negative,high,0
+"Product quality bahut kharab hai, waste of money let me know the status",E-Commerce,neutral,medium,0
+"Product damaged mila box kholne par, quality check nahi tha pichle baar bahut achha support mila tha",E-Commerce,positive,low,0
+"Supply 12 ghante se band hai, koi update nahi de raha bewakoof log",Electricity,negative,medium,1
+UPI transaction fail ho gayi par paise cut ho gaye account se bahut nirasha hui,Banking,negative,low,0
+Caste certificate reject ho gaya without reason ye toh zabardasti hai,Government,negative,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha bahut serious matter hai ye turant resolve karo",Healthcare,negative,high,0
+Caste certificate reject ho gaya without reason bahut gussa aa raha hai,Government,negative,medium,0
+Bill online pay kiya par receipt nahi mili abhi tak koi urgent nahi hai but issue hai please dekh lena,Electricity,neutral,low,0
+"Lab report galat aayi, second test mein alag results update chahiye complaint ka",Healthcare,neutral,low,0
+"Wrong product bheja gaya, size aur color dono galat ye toh zabardasti hai",E-Commerce,negative,low,0
+Discount nahi mila jo website par show ho raha tha bewakoof log,E-Commerce,negative,medium,1
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne dekhte hain kya hota hai",Electricity,neutral,low,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye bahut bura laga",Railways,negative,low,0
+"Meter reading galat hai, humne check kiya let me know the status",Electricity,neutral,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai ek baar bhi sahi se nahi kiya",Banking,negative,medium,0
+Platform ticket machine kaam nahi kar rahi please help karo,Railways,neutral,low,0
+Doctor ne appointment cancel kar diya last minute par ek baar bhi sahi se nahi kiya,Healthcare,negative,low,0
+"Credit card ka bill galat hai, extra charges laga diye unhone complaint darz kar raha hoon",Banking,neutral,low,0
+"Lab report galat aayi, second test mein alag results inform kar dena jab theek ho",Healthcare,neutral,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se jab possible ho theek kar dena,Banking,neutral,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya koi urgent nahi hai but issue hai please dekh lena",Banking,neutral,low,0
+PAN card address update nahi ho rahi online sab jhooth bolte ho,Government,negative,medium,0
+"Power cut ho rahi hai roz roz, kab theek hoga kab theek hoga",Electricity,negative,low,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye bilkul galat hai",Railways,negative,low,0
+Outgoing calls band kar di bina kisi warning ke jab possible ho theek kar dena,Telecom,neutral,low,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein 2-3 din mein resolve karo please",Banking,neutral,medium,0
+"Product quality bahut kharab hai, waste of money ye toh zabardasti hai",E-Commerce,negative,low,0
+"COD order mein bhi advance payment maang rahe ho, why team pe bharosa hai",E-Commerce,positive,low,0
+Platform ticket machine kaam nahi kar rahi slowly but theek kar dena please,Railways,neutral,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar very disappointed,Banking,negative,low,0
+Passport application status update nahi ho raha weeks se inform kar dena jab theek ho,Government,neutral,low,0
+"Meter reading galat hai, humne check kiya inform kar dena jab theek ho",Electricity,neutral,medium,0
+"Ward mein cleanliness bahut kharab hai, infection risk shame on you",Healthcare,negative,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein emergency hai abhi turant help chahiye,E-Commerce,negative,high,0
+"Refund pending hai 15 din se, paisa wapas karo accident ho gaya hospital se baat karo",E-Commerce,negative,high,0
+"Loan EMI double deduct ho gayi is month, very frustrating request hai",Banking,neutral,low,0
+New connection ke liye 3 mahine se wait kar rahe hain request hai,Electricity,neutral,medium,0
+Ticket confirm nahi hua par paise kat gaye account se disgusting,Railways,negative,medium,0
+Medicines expire ho chuki thi jo di gayi agar possible ho to theek kar dena,Healthcare,neutral,low,0
+Medicines expire ho chuki thi jo di gayi team pe bharosa hai,Healthcare,positive,low,0
+Doctor ne appointment cancel kar diya last minute par shame on you,Healthcare,negative,low,0
+"Train 5 ghante late hai, koi announcement nahi ki bahut nirasha hui",Railways,negative,medium,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein confident hoon aap resolve kar lenge",Banking,positive,low,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha very disappointed",Railways,negative,medium,0
+"Fake product mila, original nahi tha bilkul please help karo",E-Commerce,neutral,medium,0
+Hospital bill mein galat charges add kiye gaye hain team pe bharosa hai,Healthcare,positive,low,0
+"COD order mein bhi advance payment maang rahe ho, why koi bata sakta hai kya",E-Commerce,neutral,medium,0
+"COD order mein bhi advance payment maang rahe ho, why dekhte hain kya hota hai",E-Commerce,neutral,medium,0
+Voltage fluctuation se ghar ka saman kharab ho gaya koi bata sakta hai kya,Electricity,neutral,low,0
+"Medicine out of stock hai, alternative nahi bataya pichle baar bahut achha support mila tha",Healthcare,positive,low,0
+Online appointment system kaam nahi kar raha team pe bharosa hai,Healthcare,positive,low,0
+"Lab report galat aayi, second test mein alag results important kaam ruk gaya is wajah se please",Healthcare,negative,medium,0
+"Supply 12 ghante se band hai, koi update nahi de raha aap log bahut helpful hote hain usually",Electricity,positive,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se kab theek hoga,Banking,negative,low,0
+5G plan liya par 4G bhi nahi milta area mein dekhte hain kya hota hai,Telecom,neutral,low,0
+"COD order mein bhi advance payment maang rahe ho, why bewakoof log",E-Commerce,negative,medium,1
+Doctor ne appointment cancel kar diya last minute par pareshaan kar diya,Healthcare,negative,medium,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha aasha hai jaldi theek hoga",Healthcare,positive,low,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai ek baar bhi sahi se nahi kiya",Government,negative,low,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha sab jhooth bolte ho",Healthcare,negative,medium,0
+Discount nahi mila jo website par show ho raha tha pareshaan kar diya,E-Commerce,negative,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se ummeed hai is baar bhi theek kar denge,Banking,positive,low,0
+"Meter reading galat hai, humne check kiya agar possible ho to theek kar dena",Electricity,neutral,low,0
+"Supply 12 ghante se band hai, koi update nahi de raha bahut bura laga",Electricity,negative,medium,0
+"Credit card ka bill galat hai, extra charges laga diye unhone aap log bahut helpful hote hain usually",Banking,positive,low,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon bahut shukriya pehle se help ke liye",Telecom,positive,low,0
+"Mobile banking app crash ho rahi hai baar baar, useless app unacceptable",Banking,negative,low,0
+"Ambulance bahut late aayi emergency mein, dangerous tha ummeed hai is baar bhi theek kar denge",Healthcare,positive,low,0
+"Ward mein cleanliness bahut kharab hai, infection risk complaint darz kar raha hoon",Healthcare,neutral,low,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai ye toh zabardasti hai",Government,negative,low,0
+"Meter reading galat hai, humne check kiya har din aata hoon office mein issue hai",Electricity,negative,medium,0
+Ticket confirm nahi hua par paise kat gaye account se important kaam ruk gaya is wajah se please,Railways,negative,medium,0
+"Lab report galat aayi, second test mein alag results shame on you",Healthcare,negative,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya bahut nirasha hui",Telecom,negative,low,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai cheat kar rahe ho khullam khulla",Government,negative,medium,1
+5G plan liya par 4G bhi nahi milta area mein ye toh zabardasti hai,Telecom,negative,medium,0
+Online appointment system kaam nahi kar raha koi bata sakta hai kya,Healthcare,neutral,low,0
+PAN card address update nahi ho rahi online bahut shukriya pehle se help ke liye,Government,positive,low,0
+"Loan EMI double deduct ho gayi is month, very frustrating aasha hai jaldi theek hoga",Banking,positive,low,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon solution chahiye",Telecom,neutral,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya fraud system hai ye",Banking,negative,medium,1
+Outgoing calls band kar di bina kisi warning ke bahut nirasha hui,Telecom,negative,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne kaafi din se yeh problem chal rahi hai",Electricity,neutral,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein bimar bachha hai ghar mein urgent help,E-Commerce,negative,high,0
+"Lab report galat aayi, second test mein alag results critical situation hai please help karo abhi",Healthcare,negative,high,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon ullu banate ho customers ko,Government,negative,medium,1
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye ye toh zabardasti hai",Electricity,negative,low,0
+Hospital bill mein galat charges add kiye gaye hain request hai,Healthcare,neutral,medium,0
+Outgoing calls band kar di bina kisi warning ke worst service,Telecom,negative,medium,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye complaint darz kar raha hoon",Railways,neutral,medium,0
+Sarkari officer bribe maang raha hai kaam karne ke liye mujhe jaankari chahiye,Government,neutral,low,0
+RTI application ka jawab nahi mila 30 din mein request hai,Government,neutral,low,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai cheat kar rahe ho khullam khulla",Telecom,negative,medium,1
+"Refund pending hai 15 din se, paisa wapas karo unacceptable",E-Commerce,negative,low,0
+"SMS nahi aa raha important messages, very problematic bilkul galat hai",Telecom,negative,medium,0
+Roaming charges bahut zyada laga diye trip mein pichle baar bahut achha support mila tha,Telecom,positive,low,0
+"Mobile banking app crash ho rahi hai baar baar, useless app ummeed hai is baar bhi theek kar denge",Banking,positive,low,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye aasha hai jaldi theek hoga",Electricity,positive,low,0
+New connection ke liye 3 mahine se wait kar rahe hain sab jhooth bolte ho,Electricity,negative,low,0
+New connection ke liye 3 mahine se wait kar rahe hain jab possible ho theek kar dena,Electricity,neutral,low,0
+Order deliver nahi hua par delivered show ho raha hai app mein ummeed hai is baar bhi theek kar denge,E-Commerce,positive,low,0
+Order deliver nahi hua par delivered show ho raha hai app mein inform kar dena jab theek ho,E-Commerce,neutral,low,0
+"Power cut ho rahi hai roz roz, kab theek hoga let me know the status",Electricity,neutral,low,0
+"Credit card ka bill galat hai, extra charges laga diye unhone bahut shukriya pehle se help ke liye",Banking,positive,low,0
+Outgoing calls band kar di bina kisi warning ke dekhte hain kya hota hai,Telecom,neutral,low,0
+Order cancel kar diya aapne meri permission bina update chahiye complaint ka,E-Commerce,neutral,medium,0
+Medicines expire ho chuki thi jo di gayi jaldi se theek karo yaar office mein problem ho rahi hai,Healthcare,neutral,medium,0
+Ticket confirm nahi hua par paise kat gaye account se pareshaan kar diya,Railways,negative,low,0
+Passport application status update nahi ho raha weeks se bohot pareshaan hoon is issue se please help,Government,negative,medium,0
+Return request reject ho gaya bina reason ke itna bura experience pehle kabhi nahi tha,E-Commerce,negative,medium,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein please help karo",Banking,neutral,low,0
+"Delivery boy ne rude behave kiya, acceptable nahi bijli 12 ghante se gai hai emergency hai",E-Commerce,negative,high,0
+Order cancel kar diya aapne meri permission bina pareshaan kar diya,E-Commerce,negative,low,0
+"Fake product mila, original nahi tha bilkul itna bura experience pehle kabhi nahi tha",E-Commerce,negative,medium,0
+"Supply 12 ghante se band hai, koi update nahi de raha accident ho gaya hospital se baat karo",Electricity,negative,high,0
+"SMS nahi aa raha important messages, very problematic dekhte hain kya hota hai",Telecom,neutral,medium,0
+Return request reject ho gaya bina reason ke bilkul galat hai,E-Commerce,negative,medium,0
+"Loan EMI double deduct ho gayi is month, very frustrating pareshaan kar diya",Banking,negative,low,0
+"Refund pending hai 15 din se, paisa wapas karo ummeed hai theek hoga",E-Commerce,neutral,medium,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye bahut gussa aa raha hai",Railways,negative,low,0
+Seller ne galat description diya product ka complaint darz kar raha hoon,E-Commerce,neutral,low,0
+Interest rate galat calculate ki gayi meri FD par bahut nirasha hui,Banking,negative,medium,0
+Sarkari officer bribe maang raha hai kaam karne ke liye koi bata sakta hai kya,Government,neutral,medium,0
+Bill online pay kiya par receipt nahi mili abhi tak koi bata sakta hai kya,Electricity,neutral,medium,0
+Reservation coach mein general passengers aa gaye bahut bura laga,Railways,negative,low,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein bahut nirasha hui",Banking,negative,medium,0
+"Credit card ka bill galat hai, extra charges laga diye unhone jab possible ho theek kar dena",Banking,neutral,medium,0
+Caste certificate reject ho gaya without reason accident ho gaya hospital se baat karo,Government,negative,high,0
+"Refund pending hai 15 din se, paisa wapas karo inform kar dena jab theek ho",E-Commerce,neutral,low,0
+Passport application status update nahi ho raha weeks se update chahiye complaint ka,Government,neutral,medium,0
+"Mobile banking app crash ho rahi hai baar baar, useless app shame on you",Banking,negative,low,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai koi bata sakta hai kya",Government,neutral,low,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai confident hoon aap resolve kar lenge",Government,positive,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai ummeed hai is baar bhi theek kar denge",Banking,positive,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya bahut gussa aa raha hai,Electricity,negative,medium,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye let me know the status",Electricity,neutral,medium,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai aap log bahut helpful hote hain usually",Government,positive,low,0
+"Wrong product bheja gaya, size aur color dono galat solution chahiye",E-Commerce,neutral,medium,0
+UPI transaction fail ho gayi par paise cut ho gaye account se please help karo,Banking,neutral,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein pichle baar bahut achha support mila tha,E-Commerce,positive,low,0
+Data pack khatam nahi hua tha fir bhi band kar diya pareshaan kar diya,Telecom,negative,low,0
+"Supply 12 ghante se band hai, koi update nahi de raha emergency hai abhi turant help chahiye",Electricity,negative,high,0
+New connection ke liye 3 mahine se wait kar rahe hain critical situation hai please help karo abhi,Electricity,negative,high,0
+"Product damaged mila box kholne par, quality check nahi tha aap log bahut helpful hote hain usually",E-Commerce,positive,low,0
+"Refund pending hai 15 din se, paisa wapas karo aap log bahut helpful hote hain usually",E-Commerce,positive,low,0
+Discount nahi mila jo website par show ho raha tha sab jhooth bolte ho,E-Commerce,negative,low,0
+Roaming charges bahut zyada laga diye trip mein ye toh zabardasti hai,Telecom,negative,medium,0
+"Mobile banking app crash ho rahi hai baar baar, useless app bahut bura laga",Banking,negative,medium,0
+Scholarship nahi mili jo milni chahiye thi students ko bahut bura laga,Government,negative,medium,0
+Outgoing calls band kar di bina kisi warning ke ummeed hai is baar bhi theek kar denge,Telecom,positive,low,0
+5G plan liya par 4G bhi nahi milta area mein team pe bharosa hai,Telecom,positive,low,0
+"Meter reading galat hai, humne check kiya pichle baar bahut achha support mila tha",Electricity,positive,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi complaint darz kar raha hoon",Telecom,neutral,medium,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya bimar bachha hai ghar mein urgent help",Banking,negative,high,0
+"Bijli bill bahut zyada aaya is baar, double ho gaya sab jhooth bolte ho",Electricity,negative,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi aasha hai jaldi theek hoga",Telecom,positive,low,0
+Passport application status update nahi ho raha weeks se bahut shukriya pehle se help ke liye,Government,positive,low,0
+Ticket confirm nahi hua par paise kat gaye account se confident hoon aap resolve kar lenge,Railways,positive,low,0
+5G plan liya par 4G bhi nahi milta area mein bilkul galat hai,Telecom,negative,medium,0
+Doctor ne appointment cancel kar diya last minute par pichle baar bahut achha support mila tha,Healthcare,positive,low,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai bahut gussa aa raha hai",Government,negative,low,0
+Medicines expire ho chuki thi jo di gayi ye toh zabardasti hai,Healthcare,negative,low,0
+"COD order mein bhi advance payment maang rahe ho, why kab theek hoga",E-Commerce,negative,medium,0
+"Mobile banking app crash ho rahi hai baar baar, useless app mujhe jaankari chahiye",Banking,neutral,medium,0
+Outgoing calls band kar di bina kisi warning ke bahut gussa aa raha hai,Telecom,negative,medium,0
+"Power cut ho rahi hai roz roz, kab theek hoga no rush but complaint darz kar raha hoon",Electricity,neutral,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi bimar bachha hai ghar mein urgent help",Telecom,negative,high,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon ek baar bhi sahi se nahi kiya,Government,negative,low,0
+Smart meter galat reading de raha hai sab jhooth bolte ho,Electricity,negative,low,0
+Platform ticket machine kaam nahi kar rahi mujhe jaankari chahiye,Railways,neutral,low,0
+"Mobile banking app crash ho rahi hai baar baar, useless app complaint darz kar raha hoon",Banking,neutral,low,0
+"Product quality bahut kharab hai, waste of money team pe bharosa hai",E-Commerce,positive,low,0
+Passport application status update nahi ho raha weeks se disgusting,Government,negative,medium,0
+"Lab report galat aayi, second test mein alag results bahut shukriya pehle se help ke liye",Healthcare,positive,low,0
+"Power cut ho rahi hai roz roz, kab theek hoga disgusting",Electricity,negative,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai kaafi din se yeh problem chal rahi hai",Banking,neutral,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein koi bata sakta hai kya,E-Commerce,neutral,low,0
+Mera savings account freeze kar diya without any notice team pe bharosa hai,Banking,positive,low,0
+"Khana bahut ganda tha train mein, quality zero hai update chahiye complaint ka",Railways,neutral,medium,0
+"Refund pending hai 15 din se, paisa wapas karo update chahiye complaint ka",E-Commerce,neutral,medium,0
+Outgoing calls band kar di bina kisi warning ke koi bata sakta hai kya,Telecom,neutral,medium,0
+"Ambulance bahut late aayi emergency mein, dangerous tha jab time mile tab resolve kar dena",Healthcare,neutral,low,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi koi bata sakta hai kya",Banking,neutral,medium,0
+"Ambulance bahut late aayi emergency mein, dangerous tha confident hoon aap resolve kar lenge",Healthcare,positive,low,0
+RTI application ka jawab nahi mila 30 din mein bahut bura laga,Government,negative,medium,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon aap log bahut helpful hote hain usually,Government,positive,low,0
+Station par porter ne bahut zyada charge kiya ambulance late aayi aur patient critical tha,Railways,negative,high,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti team pe bharosa hai",Railways,positive,low,0
+RTI application ka jawab nahi mila 30 din mein bilkul galat hai,Government,negative,low,0
+Sarkari officer bribe maang raha hai kaam karne ke liye ummeed hai is baar bhi theek kar denge,Government,positive,low,0
+"Medicine out of stock hai, alternative nahi bataya aap log bahut helpful hote hain usually",Healthcare,positive,low,0
+Scholarship nahi mili jo milni chahiye thi students ko solution chahiye,Government,neutral,low,0
+"Mobile banking app crash ho rahi hai baar baar, useless app ummeed hai theek hoga",Banking,neutral,medium,0
+"Refund pending hai 15 din se, paisa wapas karo bilkul galat hai",E-Commerce,negative,medium,0
+"Net banking band ho gaya hai, login nahi ho raha bilkul bhi disgusting",Banking,negative,medium,0
+Order deliver nahi hua par delivered show ho raha hai app mein jab possible ho theek kar dena,E-Commerce,neutral,low,0
+"Loan EMI double deduct ho gayi is month, very frustrating ye toh zabardasti hai",Banking,negative,low,0
+Platform ticket machine kaam nahi kar rahi team pe bharosa hai,Railways,positive,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se team pe bharosa hai,Banking,positive,low,0
+Property registration mein delays ho rahi hain aap log bahut helpful hote hain usually,Government,positive,low,0
+Doctor ne appointment cancel kar diya last minute par team pe bharosa hai,Healthcare,positive,low,0
+Order cancel kar diya aapne meri permission bina sab jhooth bolte ho,E-Commerce,negative,low,0
+Outgoing calls band kar di bina kisi warning ke jab time mile tab resolve kar dena,Telecom,neutral,low,0
+Seller ne galat description diya product ka aap log bahut helpful hote hain usually,E-Commerce,positive,low,0
+Station par porter ne bahut zyada charge kiya inform kar dena jab theek ho,Railways,neutral,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya dekhte hain kya hota hai",Telecom,neutral,medium,0
+Outgoing calls band kar di bina kisi warning ke ullu banate ho customers ko,Telecom,negative,medium,1
+Medicines expire ho chuki thi jo di gayi bahut nirasha hui,Healthcare,negative,low,0
+Discount nahi mila jo website par show ho raha tha aap log bahut helpful hote hain usually,E-Commerce,positive,low,0
+"Ward mein cleanliness bahut kharab hai, infection risk please resolve",Healthcare,neutral,low,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai mujhe jaankari chahiye",Telecom,neutral,medium,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye important kaam ruk gaya is wajah se please",Electricity,negative,medium,0
+Bill online pay kiya par receipt nahi mili abhi tak bahut shukriya pehle se help ke liye,Electricity,positive,low,0
+Scholarship nahi mili jo milni chahiye thi students ko pareshaan kar diya,Government,negative,low,0
+"Internet speed bahut slow hai, 2G jaisi feel ho rahi hai ummeed hai theek hoga",Telecom,neutral,medium,0
+Port request reject kar diya bina koi reason bataye dekhte hain kya hota hai,Telecom,neutral,medium,0
+"Lineman bribe maang raha hai connection ke liye, wrong hai ye bahut bura laga",Electricity,negative,low,0
+OTP nahi aa raha important verification ke liye let me know the status,Telecom,neutral,low,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo aap log bahut helpful hote hain usually",Banking,positive,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai team pe bharosa hai",Banking,positive,low,0
+Insurance claim reject ho gaya without valid reason solution chahiye,Healthcare,neutral,medium,0
+Platform ticket machine kaam nahi kar rahi inform kar dena jab theek ho,Railways,neutral,low,0
+OTP nahi aa raha important verification ke liye bijli 12 ghante se gai hai emergency hai,Telecom,negative,high,0
+"Loan EMI double deduct ho gayi is month, very frustrating please help karo",Banking,neutral,medium,0
+Smart meter galat reading de raha hai unacceptable,Electricity,negative,medium,0
+Seller ne galat description diya product ka disgusting,E-Commerce,negative,medium,0
+"Delivery boy ne rude behave kiya, acceptable nahi koi bata sakta hai kya",E-Commerce,neutral,low,0
+"Lab report galat aayi, second test mein alag results confident hoon aap resolve kar lenge",Healthcare,positive,low,0
+Bill online pay kiya par receipt nahi mili abhi tak bahut nirasha hui,Electricity,negative,medium,0
+"Mobile banking app crash ho rahi hai baar baar, useless app har din aata hoon office mein issue hai",Banking,negative,medium,0
+Property registration mein delays ho rahi hain critical situation hai please help karo abhi,Government,negative,high,0
+Ticket confirm nahi hua par paise kat gaye account se mujhe jaankari chahiye,Railways,neutral,medium,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo agar possible ho to theek kar dena",Banking,neutral,low,0
+"COD order mein bhi advance payment maang rahe ho, why jab possible ho theek kar dena",E-Commerce,neutral,medium,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai koi bata sakta hai kya",Government,neutral,low,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon kab theek hoga,Government,negative,medium,0
+Station par porter ne bahut zyada charge kiya emergency hai abhi turant help chahiye,Railways,negative,high,0
+"Product damaged mila box kholne par, quality check nahi tha pareshaan kar diya",E-Commerce,negative,medium,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha please resolve",Healthcare,neutral,low,0
+"Delivery boy ne rude behave kiya, acceptable nahi dekhte hain kya hota hai",E-Commerce,neutral,low,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti bohot pareshaan hoon is issue se please help",Railways,negative,medium,0
+"Product damaged mila box kholne par, quality check nahi tha bahut nirasha hui",E-Commerce,negative,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne mujhe jaankari chahiye",Electricity,neutral,medium,0
+Mera savings account freeze kar diya without any notice shame on you,Banking,negative,medium,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai bahut gussa aa raha hai",Banking,negative,medium,0
+Online appointment system kaam nahi kar raha shame on you,Healthcare,negative,medium,0
+"Pension ruk gayi hai, senior citizen ko bahut problem hai jaldi se theek karo yaar office mein problem ho rahi hai",Government,negative,medium,0
+Data pack khatam nahi hua tha fir bhi band kar diya ummeed hai theek hoga,Telecom,neutral,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai jab possible ho theek kar dena",Banking,neutral,low,0
+Mera savings account freeze kar diya without any notice please help karo,Banking,neutral,low,0
+Insurance claim reject ho gaya without valid reason unacceptable,Healthcare,negative,low,0
+Hospital bill mein galat charges add kiye gaye hain confident hoon aap resolve kar lenge,Healthcare,positive,low,0
+"Power cut ho rahi hai roz roz, kab theek hoga 2-3 din mein resolve karo please",Electricity,neutral,medium,0
+Property registration mein delays ho rahi hain jab time mile tab resolve kar dena,Government,neutral,low,0
+Reservation coach mein general passengers aa gaye ek baar bhi sahi se nahi kiya,Railways,negative,medium,0
+Data pack khatam nahi hua tha fir bhi band kar diya pichle baar bahut achha support mila tha,Telecom,positive,low,0
+"Train 5 ghante late hai, koi announcement nahi ki confident hoon aap resolve kar lenge",Railways,positive,low,0
+RTI application ka jawab nahi mila 30 din mein bahut serious matter hai ye turant resolve karo,Government,negative,high,0
+Platform ticket machine kaam nahi kar rahi bimar bachha hai ghar mein urgent help,Railways,negative,high,0
+Station par porter ne bahut zyada charge kiya shame on you,Railways,negative,low,0
+Property registration mein delays ho rahi hain kaafi din se yeh problem chal rahi hai,Government,negative,medium,0
+Seller ne galat description diya product ka mujhe jaankari chahiye,E-Commerce,neutral,low,0
+PAN card address update nahi ho rahi online please resolve,Government,neutral,medium,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya bahut shukriya pehle se help ke liye",Banking,positive,low,0
+Medicines expire ho chuki thi jo di gayi bahut shukriya pehle se help ke liye,Healthcare,positive,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi itna bura experience pehle kabhi nahi tha",Telecom,negative,low,0
+UPI transaction fail ho gayi par paise cut ho gaye account se solution chahiye,Banking,neutral,low,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti bilkul galat hai",Railways,negative,low,0
+Sarkari officer bribe maang raha hai kaam karne ke liye disgusting,Government,negative,medium,0
+Hospital bill mein galat charges add kiye gaye hain koi bata sakta hai kya,Healthcare,neutral,medium,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi bahut bura laga",Telecom,negative,low,0
+Roaming charges bahut zyada laga diye trip mein update chahiye complaint ka,Telecom,neutral,low,0
+"mera account se paise kat gaye bina kisi reason ke, please help karo bahut shukriya pehle se help ke liye",Banking,positive,low,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai disgusting",Railways,negative,medium,0
+Caste certificate reject ho gaya without reason ambulance late aayi aur patient critical tha,Government,negative,high,0
+Smart meter galat reading de raha hai shame on you,Electricity,negative,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne ummeed hai is baar bhi theek kar denge",Electricity,positive,low,0
+Roaming charges bahut zyada laga diye trip mein please help karo,Telecom,neutral,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya please help karo",Banking,neutral,low,0
+"Transformer kharab hai colony mein, koi nahi aa raha fix karne bilkul galat hai",Electricity,negative,low,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai ummeed hai theek hoga",Government,neutral,medium,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha ummeed hai is baar bhi theek kar denge",Healthcare,positive,low,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya ye toh zabardasti hai",Banking,negative,medium,0
+Doctor ne appointment cancel kar diya last minute par update chahiye complaint ka,Healthcare,neutral,low,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha 2-3 din mein resolve karo please",Healthcare,neutral,medium,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon ummeed hai is baar bhi theek kar denge,Government,positive,low,0
+"Ward mein cleanliness bahut kharab hai, infection risk please help karo",Healthcare,neutral,low,0
+Online appointment system kaam nahi kar raha update chahiye complaint ka,Healthcare,neutral,low,0
+Hospital bill mein galat charges add kiye gaye hain kab theek hoga,Healthcare,negative,low,0
+"Khana bahut ganda tha train mein, quality zero hai koi urgent nahi hai but issue hai please dekh lena",Railways,neutral,low,0
+"Call drop ho rahi hai baar baar, baat nahi ho pa rahi bohot pareshaan hoon is issue se please help",Telecom,negative,medium,0
+"Medicine out of stock hai, alternative nahi bataya update chahiye complaint ka",Healthcare,neutral,low,0
+Voltage fluctuation se ghar ka saman kharab ho gaya let me know the status,Electricity,neutral,low,0
+RTI application ka jawab nahi mila 30 din mein har din aata hoon office mein issue hai,Government,neutral,medium,0
+Reservation coach mein general passengers aa gaye unacceptable,Railways,negative,low,0
+Caste certificate reject ho gaya without reason bahut shukriya pehle se help ke liye,Government,positive,low,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai kab theek hoga",Railways,negative,low,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar bohot pareshaan hoon is issue se please help,Banking,negative,medium,0
+"Customer care number pe koi nahi uthata, 1 ghante se hold par hoon kaafi din se yeh problem chal rahi hai",Telecom,neutral,medium,0
+"Fake product mila, original nahi tha bilkul chor hain sab",E-Commerce,negative,medium,1
+"Aadhaar update nahi ho raha, portal crash ho raha hai inform kar dena jab theek ho",Government,neutral,low,0
+Data pack khatam nahi hua tha fir bhi band kar diya update chahiye complaint ka,Telecom,neutral,low,0
+Port request reject kar diya bina koi reason bataye ummeed hai theek hoga,Telecom,neutral,low,0
+Order cancel kar diya aapne meri permission bina aap log bahut helpful hote hain usually,E-Commerce,positive,low,0
+"Medicine out of stock hai, alternative nahi bataya dhoka hai ye",Healthcare,negative,medium,1
+Interest rate galat calculate ki gayi meri FD par accident ho gaya hospital se baat karo,Banking,negative,high,0
+"AC coach mein AC band hai, bahut garmi ho rahi hai ye toh zabardasti hai",Railways,negative,medium,0
+Smart meter galat reading de raha hai update chahiye complaint ka,Electricity,neutral,medium,0
+Insurance claim reject ho gaya without valid reason confident hoon aap resolve kar lenge,Healthcare,positive,low,0
+Bill online pay kiya par receipt nahi mili abhi tak inform kar dena jab theek ho,Electricity,neutral,low,0
+"Bank branch mein koi sunata hi nahi, staff bahut rude hai disgusting",Banking,negative,low,0
+Reservation coach mein general passengers aa gaye 2-3 din mein resolve karo please,Railways,neutral,medium,0
+Scholarship nahi mili jo milni chahiye thi students ko yeh toh dakaiti hai,Government,negative,medium,1
+"AC coach mein AC band hai, bahut garmi ho rahi hai ummeed hai theek hoga",Railways,neutral,medium,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha request hai",Railways,neutral,low,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai pichle baar bahut achha support mila tha",Telecom,positive,low,0
+Income certificate ke liye 2 mahine se chakkar laga raha hoon ye toh zabardasti hai,Government,negative,low,0
+New connection ke liye 3 mahine se wait kar rahe hain jab time mile tab resolve kar dena,Electricity,neutral,low,0
+Caste certificate reject ho gaya without reason ummeed hai theek hoga,Government,neutral,low,0
+Hospital bill mein galat charges add kiye gaye hain itna bura experience pehle kabhi nahi tha,Healthcare,negative,medium,0
+"Lab report galat aayi, second test mein alag results ye toh zabardasti hai",Healthcare,negative,low,0
+"FD maturity ke paise abhi tak nahi mile, kitna wait karein update chahiye complaint ka",Banking,neutral,medium,0
+Doctor ne appointment cancel kar diya last minute par solution chahiye,Healthcare,neutral,medium,0
+"Recharge kiya par balance nahi aaya, paisa waste ho gaya ummeed hai is baar bhi theek kar denge",Telecom,positive,low,0
+Reservation coach mein general passengers aa gaye complaint darz kar raha hoon,Railways,neutral,low,0
+Interest rate galat calculate ki gayi meri FD par team pe bharosa hai,Banking,positive,low,0
+Platform ticket machine kaam nahi kar rahi no rush but complaint darz kar raha hoon,Railways,neutral,low,0
+Interest rate galat calculate ki gayi meri FD par complaint darz kar raha hoon,Banking,neutral,low,0
+Mera savings account freeze kar diya without any notice koi bata sakta hai kya,Banking,neutral,low,0
+Interest rate galat calculate ki gayi meri FD par bahut gussa aa raha hai,Banking,negative,medium,0
+UPI transaction fail ho gayi par paise cut ho gaye account se bahut gussa aa raha hai,Banking,negative,low,0
+"Fake product mila, original nahi tha bilkul kab theek hoga",E-Commerce,negative,medium,0
+RTI application ka jawab nahi mila 30 din mein shame on you,Government,negative,medium,0
+Data pack khatam nahi hua tha fir bhi band kar diya ek baar bhi sahi se nahi kiya,Telecom,negative,low,0
+Reservation coach mein general passengers aa gaye aasha hai jaldi theek hoga,Railways,positive,low,0
+"Meter reading galat hai, humne check kiya dekhte hain kya hota hai",Electricity,neutral,low,0
+Passport application status update nahi ho raha weeks se please resolve,Government,neutral,low,0
+Scholarship nahi mili jo milni chahiye thi students ko confident hoon aap resolve kar lenge,Government,positive,low,0
+"Refund nahi mila cancelled ticket ka, 2 mahine ho gaye har din aata hoon office mein issue hai",Railways,neutral,medium,0
+Smart meter galat reading de raha hai koi bata sakta hai kya,Electricity,neutral,low,0
+Interest rate galat calculate ki gayi meri FD par ummeed hai theek hoga,Banking,neutral,low,0
+Scholarship nahi mili jo milni chahiye thi students ko dekhte hain kya hota hai,Government,neutral,low,0
+"Train 5 ghante late hai, koi announcement nahi ki jaan ka khatra hai please urgent basis par",Railways,negative,high,0
+"Waiting room ki haalat bahut kharab hai, cleaning nahi hoti itna bura experience pehle kabhi nahi tha",Railways,negative,medium,0
+Return request reject ho gaya bina reason ke mujhe jaankari chahiye,E-Commerce,neutral,medium,0
+"Train 5 ghante late hai, koi announcement nahi ki koi bata sakta hai kya",Railways,neutral,medium,0
+"Train mein theft ho gaya, TTE kuch nahi kar raha aap log bahut helpful hote hain usually",Railways,positive,low,0
+"Network nahi aa raha ghar pe, signal bilkul zero hai important kaam ruk gaya is wajah se please",Telecom,negative,medium,0
+Return request reject ho gaya bina reason ke worst service,E-Commerce,negative,medium,0
+PAN card address update nahi ho rahi online agar possible ho to theek kar dena,Government,neutral,low,0
+Port request reject kar diya bina koi reason bataye loot rahe ho,Telecom,negative,medium,1
+PAN card address update nahi ho rahi online bahut bura laga,Government,negative,low,0
+"COD order mein bhi advance payment maang rahe ho, why slowly but theek kar dena please",E-Commerce,neutral,low,0
+"Lab report galat aayi, second test mein alag results slowly but theek kar dena please",Healthcare,neutral,low,0
+"Aadhaar update nahi ho raha, portal crash ho raha hai bahut nirasha hui",Government,negative,medium,0
+ATM se cash nahi nikla but account se deduct ho gaya yaar slowly but theek kar dena please,Banking,neutral,low,0
+Property registration mein delays ho rahi hain worst service,Government,negative,medium,0
+"Mera cheque bounce ho gaya unnecessarily, koi reason nahi diya jaan ka khatra hai please urgent basis par",Banking,negative,high,0
+Platform ticket machine kaam nahi kar rahi agar possible ho to theek kar dena,Railways,neutral,low,0
+"Doctor ne theek se examine nahi kiya, jaldi mein tha jab possible ho theek kar dena",Healthcare,neutral,medium,0
+Order cancel kar diya aapne meri permission bina please resolve,E-Commerce,neutral,low,0

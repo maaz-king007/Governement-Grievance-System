@@ -1,0 +1,27 @@
+{
+  "departments": [
+    "Banking",
+    "E-Commerce",
+    "Electricity",
+    "Government",
+    "Healthcare",
+    "Railways",
+    "Telecom"
+  ],
+  "sentiments": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "urgencies": [
+    "high",
+    "low",
+    "medium"
+  ],
+  "accuracies": {
+    "department": 1.0,
+    "sentiment": 0.9677,
+    "urgency": 0.7161,
+    "abusive": 0.9484
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Track Complaint | AI Grievance System</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-brand">
+    <a href="/" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:0.5rem">
+      <span class="nav-logo">⚖️</span><span>AI Grievance System</span>
+    </a>
+  </div>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/submit">File Complaint</a>
+    <a href="/track" class="active">Track Status</a>
+    <a href="/dashboard">Dashboard</a>
+  </div>
+</nav>
+
+<div class="page-container">
+  <div class="page-header">
+    <h1>🔍 Track Your Complaint</h1>
+    <p>Enter your ticket ID to check the current status</p>
+  </div>
+
+  <div class="track-container">
+    <div class="track-search">
+      <input type="text" id="ticket-input" placeholder="Enter Ticket ID (e.g. GRV-AB12CD34)"
+             class="form-input" value="{{ ticket_id }}"
+             onkeydown="if(event.key==='Enter') searchTicket()">
+      <button class="btn btn-primary" onclick="searchTicket()">🔍 Track</button>
+    </div>
+
+    {% if grievance %}
+    <div class="track-result">
+      <div class="tr-header">
+        <div class="tr-ticket">{{ grievance.ticket_id }}</div>
+        <div class="tr-status status-{{ grievance.status.lower().replace(' ', '-') }}">{{ grievance.status }}</div>
+      </div>
+
+      <div class="tr-grid">
+        <div class="tr-item">
+          <div class="tri-label">📅 Filed On</div>
+          <div class="tri-value">{{ grievance.created_at }}</div>
+        </div>
+        <div class="tr-item">
+          <div class="tri-label">👤 Name</div>
+          <div class="tri-value">{{ grievance.name }}</div>
+        </div>
+        <div class="tr-item">
+          <div class="tri-label">🏢 Department</div>
+          <div class="tri-value">{{ grievance.department }}</div>
+        </div>
+        <div class="tr-item">
+          <div class="tri-label">🚨 Urgency</div>
+          <div class="tri-value urgency-{{ grievance.urgency }}">
+            {% if grievance.urgency == 'high' %}🔴{% elif grievance.urgency == 'medium' %}🟡{% else %}🟢{% endif %}
+            {{ grievance.urgency | title }}
+          </div>
+        </div>
+        <div class="tr-item">
+          <div class="tri-label">💬 Sentiment</div>
+          <div class="tri-value">{{ grievance.sentiment | title }}</div>
+        </div>
+        <div class="tr-item">
+          <div class="tri-label">🤖 Dept Confidence</div>
+          <div class="tri-value">{{ grievance.dept_confidence }}%</div>
+        </div>
+      </div>
+
+      <div class="tr-complaint">
+        <div class="trc-label">📝 Your Complaint</div>
+        <div class="trc-text">{{ grievance.raw_text }}</div>
+      </div>
+
+      <div class="tr-response">
+        <div class="trr-label">🤖 AI Response</div>
+        <div class="trr-text">{{ grievance.auto_response }}</div>
+      </div>
+
+      {% if grievance.is_abusive %}
+      <div class="abuse-warning">
+        ⚠️ This complaint was flagged for inappropriate language
+      </div>
+      {% endif %}
+    </div>
+
+    {% elif ticket_id %}
+    <div class="not-found">
+      <div class="nf-icon">🔍</div>
+      <h3>Ticket not found</h3>
+      <p>No complaint found with ID: <strong>{{ ticket_id }}</strong></p>
+      <p>Please check the ticket ID and try again.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+function searchTicket() {
+  const id = document.getElementById('ticket-input').value.trim();
+  if (id) window.location.href = '/track?id=' + encodeURIComponent(id);
+}
+</script>
+
+</body>
+</html>
